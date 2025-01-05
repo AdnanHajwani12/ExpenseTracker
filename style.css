@@ -1,4 +1,4 @@
-/* General body and typography */
+
 body {
   font-family: 'Roboto', Arial, sans-serif;
   background-color: #f4f4f9;
@@ -6,14 +6,14 @@ body {
   padding: 20px;
 }
 
-/* Header */
+
 h1 {
   text-align: center;
   font-weight: bold;
   color: #4CAF50;
 }
 
-/* Input Section */
+
 .input-section {
   background-color: #fff;
   padding: 20px;
@@ -49,7 +49,7 @@ h1 {
   font-size: 16px;
 }
 
-/* Button Styles */
+
 .input-section button {
   background-color: #4CAF50;
   color: #fff;
@@ -62,7 +62,7 @@ h1 {
   background-color: #45a049;
 }
 
-/* Generate Button */
+
 #generate-btn {
   background-color: #ff9800;
 }
@@ -71,7 +71,7 @@ h1 {
   background-color: #ff9100;
 }
 
-/* Button for Download HTML Report */
+
 #download-btn {
   display: block;
   width: 100%;
@@ -91,7 +91,6 @@ h1 {
   background-color: #e64a19;
 }
 
-/* Expenses List Section */
 .expenses-list {
   padding: 20px;
   background-color: #fff;
@@ -101,7 +100,7 @@ h1 {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Table Styles */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -128,7 +127,7 @@ tr:hover {
   background-color: #f1f1f1;
 }
 
-/* Actions Button */
+
 button {
   font-weight: bold;
   background: #f44336;
@@ -145,7 +144,7 @@ button:hover {
   background-color: #d32f2f;
 }
 
-/* Chart Container */
+
 .chart-container {
   padding: 20px;
   text-align: center;
@@ -156,7 +155,7 @@ button:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
   .input-section,
   .expenses-list,
