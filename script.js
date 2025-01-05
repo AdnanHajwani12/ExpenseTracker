@@ -8,7 +8,7 @@ const expenseTableBody = document.getElementById('expense-table-body');
 const totalAmountCell = document.getElementById('total-amount');
 const chartCanvas = document.getElementById('expense-chart');
 
-// Adding an expense
+
 addBtn.addEventListener('click', () => {
     const category = document.getElementById('category-select').value;
     const amount = parseFloat(document.getElementById('amount-input').value);
@@ -21,7 +21,6 @@ addBtn.addEventListener('click', () => {
     }
 });
 
-// Updating the expense table
 function updateTable() {
     expenseTableBody.innerHTML = '';
     expenses.forEach((expense) => {
@@ -38,7 +37,6 @@ function updateTable() {
     totalAmountCell.textContent = totalAmount;
 }
 
-// Deleting an expense
 function deleteExpense(date, category) {
     const index = expenses.findIndex(exp => exp.date === date && exp.category === category);
     if (index > -1) {
@@ -48,7 +46,7 @@ function deleteExpense(date, category) {
     }
 }
 
-// Generating Pie Chart
+
 generateBtn.addEventListener('click', () => {
     const ctx = document.getElementById('expense-chart').getContext('2d');
 
@@ -74,7 +72,7 @@ generateBtn.addEventListener('click', () => {
     });
 });
 
-// Export everything to HTML
+
 downloadBtn.addEventListener('click', () => {
     const content = `
         <html>
